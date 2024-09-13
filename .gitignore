@@ -1,1 +1,33 @@
+# Virtual environment
+venv/
+venv*/
 .venv
+.Python
+bin/
+include/
+lib/
+lib64/
+pip-selfcheck.json
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.pyc
+
+# Environment variables
+.env
+
+# Database
+friends.db
+
+# Compiled Python files
+*.pyc
+
+# Dependency directories
+node_modules/
+/dist/
+
+friends.db
+backend/__pycache__/routes.cpython-312.pyc
+backend/instance/friends.db
